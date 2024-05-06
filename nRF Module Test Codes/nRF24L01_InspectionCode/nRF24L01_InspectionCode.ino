@@ -17,7 +17,7 @@
 #include <RF24.h>
 #include <printf.h>
 
-RF24 radio(9, 10);
+RF24 radio(7, 8);
 
 byte addresses[][6] = {"1Node", "2Node"};
 
